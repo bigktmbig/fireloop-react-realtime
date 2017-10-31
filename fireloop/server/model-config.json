@@ -17,22 +17,99 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": false
+  },
+  "Todo": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Note": {
+    "dataSource": "mongodb",
+    "public": false
+  },
+  "BigUser": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Customer": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Category": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Supplier": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Default": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Pbs": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Return": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Service": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "ServiceStore": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "ServiceTmp": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Store": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Point": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Repoint": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "RepointDefault": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Log": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "House": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Room": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
