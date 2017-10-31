@@ -13,7 +13,6 @@ class AppComponent extends Component {
 	}
 
 	componentDidMount() {
-		console.log(123);
 		this.BigUserApi.find().subscribe(data => {
 			console.log(data);
 		})
